@@ -1,0 +1,22 @@
+{
+  "name": "api-deep-origin",
+  "version": "1.0.0",
+  "description": "Deep Origin assessment",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "npx cypress open",
+    "cy:run": "npx cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "typescript": "^5.4.2"
+  },
+  "devDependencies": {
+    "@types/ajv": "^1.0.0",
+    "ajv": "^8.12.0",
+    "cypress": "^13.7.0"
+  }
+}
